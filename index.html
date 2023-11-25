@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <!-- core CSS -->
+      <link href="css/animate.min.css" rel="stylesheet">
+      <link href="css/main.css" rel="stylesheet">
+      <!-- Latest compiled and minified CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/cerulean/bootstrap.min.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+      
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+      <title>ICSBM Kuala Lumpur-18Feb| Scopus Conference</title>
+      <meta name="description" content="Social Sciences and Business Conference 2023 - Scopus indexed, powered by F1000Research(Taylor & Francis group), Scopus & Weob of Science Publication." />
+      <meta name="theme-color" content="#3e4ced">
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-203085952-1"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         
+         gtag('config', 'UA-203085952-1');
+      </script>
+   </head>
+   <body>
+      <div id="home">
+         <section class="custom_nav">
+            <div class=" text-center py-1 head" style="background-color:#3e4ced;">
+            </div>
+            <nav class="navbar navbar-expand-md bg-light navbar-light py-0">
+               <!-- Brand -->
+               <a class="navbar-brand" href="#">
+               <img src="images/logo.png" alt="Logo" style="width:120px;">
+               </a>
+               <!-- Toggler/collapsibe Button -->
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <!-- Navbar links -->
+               <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item ml-4">
+                        <a class="nav-link" href="#home">Home </a>
+                     </li>
+                     <li class="nav-item  ml-4">
+                        <a class="nav-link" href="#overview">About </a>
+                     </li>
+                     <li class="nav-item  ml-4">
+                        <a class="nav-link" href="#call_for_papers">Topics </a>
+                     </li>
+                     <li class="nav-item  ml-4">
+                        <a class="nav-link" href="#guidelines">Submission </a>
+                     </li>
+                     <li class="nav-item  ml-4">
+                        <a class="nav-link" href="#registration">Registration </a>
+                     </li>
+                     <li class="nav-item  ml-4">
+                        <a class="nav-link" href="#venue">Venue </a>
+                     </li>
+                     <li class="nav-item  ml-4 mr-3">
+                        <a class="nav-link" href="#committee">Committee </a>
+                     </li>
+                     <li class="nav-item  ml-4 mr-3">
+                        <a class="nav-link" href="#contact">Contact </a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </section>
+         <nav class="mobile-view">
+            <div class="navbar">
+               <a href="#home" class="active"><i class="fas fa-home"></i><br><span>Home</span></a>
+               <a href="#call_for_papers"><i class="fa fa-file"></i><br><span>Call for Papers</span></a>
+               <a href="#guidelines"><i class="fas fa-info-circle"></i><br><span>Guidelines</span></a>
+               <a href="#registration"><i class="fas fa-id-card"></i><br><span>Registration</span></a>
+            </div>
+         </nav>
+         <style>
+            * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "News Cycle", 'Titillium Web', sans-serif;
+            scroll-behavior: smooth;
+            }
+            .custom_nav{
+            position: fixed;
+            width:100vw;
+            z-index: 99999999;
+            }
+            #collapsibleNavbar .nav-link{
+            color: #000!important;
+            }
+            .imp_dates p {
+            margin-bottom: 2rem;
+            padding: 10px;
+            }
+            p,
+            li {
+            text-align: justify;
+            }
+            .third_section {
+            margin-top: 5px;
+            margin-bottom: 50px;
+            background-color: aqua;
+            border-radius: 30px;
+            }
+            h2 {
+            border-bottom: 0px solid rgb(83, 25, 241);
+            margin-bottom: 25px
+            }
+            .speakers {
+            padding: 20px;
+            background-color: aqua;
+            }
+            .mobile-view {
+            display: none;
+            }
+            @media(max-width:767px) {
+            .centered {
+            font-size:15px;
+            }
+            .mobile-view {
+            display: inline;
+            }
+            .mobile-view .navbar {
+            overflow: hidden;
+            background-color: #000;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 999999 !important;
+            }
+            .mobile-view .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 2px 2px;
+            text-decoration: none;
+            font-size: 13px;
+            }
+            .mobile-view .navbar a:hover {
+            background: #f1f1f1;
+            color: black;
+            }
+            .mobile-view .navbar a.active {
+            background-color: #3e4ced;
+            color: white;
+            }
+            .custom_nav{
+            position: relative;
+            }
+            }
+            @media(max-width:767px) {
+            .head h2 {
+            font-size: 0.77rem;
+            ;
+            }
+            }
+         </style>
+         <section id="main-slider" class="no-margin">
+            <div class="carousel slide">
+               <div class="carousel-inner">
+                  <div class="item active" style="background-image: url(images/event-bg.webp);height:70vh;">
+                     <!-----height adjustment--->
+                     <div class="container">
+                        <div class="row text-center">
+                           <div class="col-md-12 mb-10">
+                              <div class="carousel-content">
+                                 <br><br><br><br><br>
+                                 <h1 class="animation animated-item-1">ICSBM 2024</h1>
+                                 <div class="animation animated-item-2">
+                                    <h2 style="color:white;"><i>International Conference on</i><br>
+                                       Social Science, Business and Management Research
+                                    </h2>
+                                    February 18, 2024 | Kuala Lumpur, Malaysia (and ZOOM/Video)
+                                 </div>
+                                 <br>
+                                 <a href="https://bit.ly/sub-abstract" target="_blank" class="btn btn-danger btn-lg ripple-surface mb-3">Submit Paper</a><br><br><br>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--/.carousel-inner-->
+            </div>
+         </section>
+      </div>
+      <section class="body" id="overview">
+         <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <br>
+               <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                  <div class="card-header bg-primary mb-3 ">
+                     <h4><b>Introduction</b></h4>
+                  </div>
+                  <div class="card-body">
+                     <h5><span style="color:#3e4ced"><b>Overview </b></span></h5>
+                     <p class="text-justify">The <b>International Conference on Social Science, Business and Management Research (ICSBM 2024),</b> scheduled for <b>February 18, 2024</b>, in <b>Kuala Lumpur, Malaysia (and ZOOM/Video)</b>, aims to provide a global platform for researchers, academics, and industry experts to exchange and discuss their latest research findings, ideas, and survey reports in both theoretical and practical aspects of Engineering and Technology. We invite prospective authors to submit their full papers or abstracts, which will undergo a rigorous blind review process conducted by at least two independent peers.<br><br>
+                        ICSBM 2024 serves as a catalyst for collaboration between academia and industry, fostering international networks. The conference offers significant opportunities for presentations and scholarly discussions. Attendees will benefit from a wide range of activities designed to bring together a diverse community of researchers and practitioners from various disciplines, fostering the generation of innovative ideas, potential partnerships, and business prospects. Professionals from industry, academia, government research and development, and professional practice in the field of Social Science, Business and Management are all warmly welcome to join ICSBM 2024.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8">
+                  <br>
+                  <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                     <div class="card-header bg-primary mb-3" >
+                        <h4><b>Important Dates</b></h4>
+                     </div>
+                     <div class="card-body">
+                        <table class="table">
+                           <thead>
+                              <tr>
+                                 <th scope="col">Abstract/Paper Submission Deadline:</th>
+                                 <th scope="col">January 9, 2024 <a href="https://bit.ly/sub-abstract" target="_blank"><b>(Submit Now)</b></a></th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <th scope="row">Author/Acceptance Notification:</th>
+                                 <td>After 3-4 days of Submission</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">Registration Closed:</th>
+                                 <td colspan="2">January 14, 2024</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">Camera Ready Submission:</th>
+                                 <td>January 19, 2024</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">Conference Date:</th>
+                                 <td colspan="2">February 18, 2024</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 imp_dates">
+                  <p class="text-center"><img src="images/in-asso.webp" alt="indexing" height="300"></p>
+               </div>
+            </div>
+            <br>
+            <h5><span style="color:#3e4ced"><b>Note</b></span></h5>
+            <ul class="ml-4">
+               <li>All registered papers have the option to be published online in a SCOPUS or Web of Science-ESCI Indexed Journal for an additional fee.</li>
+               <li>The fees are competitive, yet they have never compromised on quality.</li>
+               <li>Abstract Proceedings e-book will be published in the Taylor & Francis Journal with an ISSN and DOI.</li>
+            </ul>
+            <hr>
+            <h2><span style="color:#3e4ced"><b>Publication Opprtunity</b></span></h2>
+
+            <a href="https://www.scimagojr.com/journalsearch.php?q=21100219935&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img width="150" height="150" border="0" src="https://www.scimagojr.com/journal_img.php?id=21100219935" alt="SCImago Journal &amp; Country Rank"  /></a>
+
+
+            <a href="https://www.scimagojr.com/journalsearch.php?q=21101085239&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img width="150" height="150" border="0" src="https://www.scimagojr.com/journal_img.php?id=21101085239" alt="SCImago Journal &amp; Country Rank"  /></a>
+
+            <a href="https://www.scimagojr.com/journalsearch.php?q=21101023180&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img width="150" height="150" border="0" src="https://www.scimagojr.com/journal_img.php?id=21101023180" alt="SCImago Journal &amp; Country Rank"  /></a>
+
+            <a href="https://www.scimagojr.com/journalsearch.php?q=21100305241&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><imgwidth="150" height="150"  border="0" src="https://www.scimagojr.com/journal_img.php?id=21100305241" alt="SCImago Journal &amp; Country Rank"  /></a>
+
+            <a href="https://www.scimagojr.com/journalsearch.php?q=21100848408&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img width="150" height="150" border="0" src="https://www.scimagojr.com/journal_img.php?id=21100848408" alt="SCImago Journal &amp; Country Rank"  /></a>
+
+            <a href="https://www.scimagojr.com/journalsearch.php?q=21100217216&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img width="150" height="150" border="0" src="https://www.scimagojr.com/journal_img.php?id=21100217216" alt="SCImago Journal &amp; Country Rank"  /></a>
+
+            <a href="https://www.scimagojr.com/journalsearch.php?q=21100466404&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img width="150" height="150" border="0" src="https://www.scimagojr.com/journal_img.php?id=21100466404" alt="SCImago Journal &amp; Country Rank"  /></a>
+
+            <a href="https://www.scimagojr.com/journalsearch.php?q=21100258853&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img width="150" height="150" border="0" src="https://www.scimagojr.com/journal_img.php?id=21100258853" alt="SCImago Journal &amp; Country Rank"  /></a>
+
+
+
+
+         </div>
+      </section>
+      <section class="fourth_section" id="call_for_papers">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                     <div class="card-header bg-primary mb-3">
+                        <h4><b>Call for Papers</b></h4>
+                     </div>
+                     <div class="card-body">
+                        <h5 class="text-justify"><span style="color:#3e4ced"><b>Tracks & Topics</b></span></h5>
+                        <p>Academicians, industry practitioners, research scholars, and students are invited to contribute original research papers (empirical and conceptual) and case studies on any of the following areas. The topics given are just suggestive. You may feel free to submit manuscripts on related topics in your area of specialization.</p>
+                        <p>Online Paper Submission: <a href="https://bit.ly/sub-abstract" target="_blank"><b>Click Here</b></a></p>
+                        <p>The Organizing Committee welcomes Abstracts from a wide variety of interdisciplinary and theoretical perspectives, and submissions are organized into the streams and sub-streams listed below:</p>
+                        <h6><b>Conference Tracks & Topics:</b></h6>
+
+                        <div class="row">
+                        <div class="col-6">
+                        
+                   <ul class="entry-content ml-4" style="list-style-type: square;">
+                       <li>Business Communication</li>
+  <li>Business Mathematics and Statistics</li>
+  <li>E-Business Technologies</li>
+  <li>Engineering Management</li>
+  <li>Enterprise Resource Planning</li>
+  <li>Entrepreneurship Engineering</li>
+  <li>Financial and Management Accounting</li>
+  <li>Financial Management</li>
+  <li>Human Resource Management</li>
+  <li>Marketing Management</li>
+  <li>Production Management</li>
+  <li>Retail Management</li>
+  <li>Advertising Management Customer</li>
+  <li>Advertising, Sales Promotion & Public Relations</li>
+  <li>Business Management</li>
+  <li>Consumer Behavior</li>
+  <li>Critical Management</li>
+  <li>Customer Relationship Management</li>
+  <li>Expense Management</li>
+  <li>Financial Management</li>
+                  
+                   </ul>
+
+               </div>
+               <div class="col-6">
+                  
+                      <ul class="entry-content ml-4" style="list-style-type: square;">
+                         <li>Foresight</li>
+  <li>Management</li>
+  <li>Information System Management</li>
+  <li>Information Technology Management</li>
+  <li>Insurance Management</li>
+  <li>Social Science</li>
+  <li>Humanities</li>
+  <li>Anthropology</li>
+  <li>Area Studies</li>
+  <li>Cultural and Ethnic Studies</li>
+  <li>Communication Studies</li>
+  <li>Gender and Sexuality Studies</li>
+  <li>Geography</li>
+  <li>History</li>
+  <li>Law</li>
+  <li>Linguistics</li>
+  <li>Political Science</li>
+  <li>Psychology</li>
+  <li>Sociology</li>
+  <li>International Relations</li>
+                   </ul>
+                        </div>
+                        </div>
+                        
+                   
+
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </section>
+      <section class="sixth_section mt-5" id="guidelines">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                     <div class="card-header bg-primary mb-3">
+                        <h4><b>Guidelines</b></h4>
+                     </div>
+                     <div class="card-body">
+                        <h5 class="text-justify"><span style="color:#3e4ced"><b>Submission</b></span></h5>
+                        <p>In the first instance we require everyone who wishes to submit their work to the conference to submit an abstract describing the proposed paper, work in progress, presentation etc. The abstract submission form will guide you through the process but we recommend you read the call for papers first to ensure you select the correct track and submission type.</p>
+                        <p><b>Abstract Submission: </b>Please submit your abstract in English with a word limit of 150-350 words, aiming for an informative summary that includes background, purpose, methodology, results, and conclusion, and include a brief biography with your submission.</p>
+                        <p><b>Full Paper Submission: </b>Prospective authors are invited to submit full-text papers, including abstract, keywords, introduction, methodology, result description, tables, figures, and references; please ensure your paper is free of typographical and grammatical errors, especially if English is not your first language, as papers will be returned if the English quality is inadequate for publication; all submitted articles should present original, previously unpublished research results, whether experimental or theoretical, meeting the Conference's criteria and not being simultaneously considered for publication elsewhere, with manuscripts adhering to the Conference's style and undergoing review and editing.</p>
+                        <p><b>Page Limit: </b>In SCOPUS (Elsevier), Web of Science™ Core Collection, and ESCI journals, the standard article length is 7 pages, encompassing all elements such as figures, tables, and references, with additional pages incurring a charge, which exceeds 7 pages at a rate of 50 USD in Peer Review Journals.</p>
+                        <p><b>Presentation Category:</b></p>
+                        <ul class="ml-4">
+                           <li><b>Oral/Virtual Presentation: </b>Opportunity to do a Oral/Live-Stream Presentation at the Conference.</li>
+                           <li><b>E-poster Presentation: </b>Electronic poster (e-poster) presentations are similar to traditional poster presentations but presented on a large computer screen.</li>
+                           <li><b>Pre-Recorded Video Presentation: </b>Authors who cannot attend the live session opt for presenting their work in a pre-recorded audio-visual format (.mp4) can avail of this option.</li>
+                        </ul>
+                        </li>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="registration">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                     <div class="card-header bg-primary mb-3">
+                        <h4><b>Registration</b></h4>
+                     </div>
+                     <div class="card-body">
+                        <h5><span style="color:#3e4ced"><b>Fees & Payment</b></span></h5>
+                        <h6><b>Registration Guidelines</b></h6>
+                        <p>After receiving the acceptance notice for your abstract, you can proceed to make your payment via Bank transfer/Online. Please be aware that payment is mandatory for each submission (title/abstract) and should be finalized prior to the Full Paper submission deadline.</p>
+                        <h6><b>Important Note:</b></h6>
+                        <ul class="ml-4">
+                           <li>To complete registration, make the payment and send us the payment receipt or transaction proof you received after the transaction you made along with the filled up registration form scanned copy before the last date of conference registration.</li>
+                           <li>Delegates should bear the Service Charges (if any) of the bank on the Sender’s Side with registration fees.</li>
+                           <li>Submit your Full paper for journal publication only after payment being confirmed by committee.</li>
+                           <li>Registration fees you paid are non-refundable in case of not attending the conference or withdrawing the paper.</li>
+                        </ul>
+                        <h5><span style="color:#3e4ced"><b><u>CONFERENCE REGISTRATION FEES</u></b></span></h5>
+                        <table class="table table-hover table-sm ">
+                           <thead>
+                              <tr>
+                                 <th scope="col">Catagory</th>
+                                 <th scope="col">In-person</th>
+                                 <th scope="col">Online</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Presenter (Without Publication)</td>
+                                 <td>200 USD</td>
+                                 <td>125 USD</td>
+                              </tr>
+                              <tr>
+                                 <td>Presenter (Paper Publication)</td>
+                                 <td>250 USD</td>
+                                 <td>150 USD</td>
+                              </tr>
+                              <tr>
+                                 <td>Listener/Co-author</td>
+                                 <td>180 USD</td>
+                                 <td>100 USD</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <h5><b><span style="color:#d90909">NOTE:</span></b></h5>
+                        <ul class="ml-4">
+                           <li>Abstract will be published in Confernece Proceedings & Full paper will be published in International Journals as per your registration category.</li>
+                           <li>The fee above includes the publication and presentation fee. Scopus, Web of Science journals have additional fees, details will be provided in the acceptance letter.</li>
+                        </ul>
+                        <br>
+                        <p><b>Benefits of Attending</b></p>
+                        <ul class="ml-4">
+                           <li>Conference registration fee includes a copy of the conference proceedings, admission to all technical sessions, two tea breaks, lunches, certificates, gifts, best paper awards and conference banquet.</li>
+                           <li>Listener registration fee includes the admission to all technical sessions, two lunches and conference banquet. </li>
+                        </ul>
+                        <br>
+                        <h6><b>Note:</b></h6>
+                        <ul class="ml-5">
+                           <li>Your acceptance will be cancelled, and the publication will be placed on hold if it is not made with full payment.</li>
+                           <li>Publication of full papers will be recommended but are not guaranteed to be published in the journals (depends on paper quality and under editor review process)</li>
+                           <li>The registration fee received is non-refundable. However, the amount you have paid can be utilized as a credit that can be applied to any of our future conferences.</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="venue">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                     <div class="card-header bg-primary mb-3">
+                        <h4><b> Conference Venue</b></h4>
+                     </div>
+                     <div class="card-body">
+                        <h5><span style="color:#3e4ced"><b>Venue & Schedule</b></span></h5>
+                        <p><b>Contact Person: Conference Coordinator <br>
+                           Location/Venue: Hilton Kuala Lumpur<br>3, Jalan Stesen Sentral, Kuala Lumpur Sentral, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia<br>+60 3-2264 2264 <br>& Online via ZOOM<br>
+                           Email: forumrpp@gmail.com</b><br>
+                        </p>
+                        <p>Presenters who will not be able to perform a live presentation via Zoom must prepare a
+                           pre-recorded video presentation. You can also use the two-step method: Create a Voice Over PowerPoint and convert to MP4 video.
+                        </p>
+                        <b>Tentative Conference Program</b><br>
+                        These programs are subject to change. Final conference program will be sent to all participants 10 days before the conference. A more detailed program will be updated closer to the conference day.<br><br>
+                        <table class="table table-bordered">
+                           <thead class="thead-dark">
+                              <tr class="table-primary">
+                                 <th>Time</th>
+                                 <th>Programe</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>08:50 AM - 09:00 AM</td>
+                                 <td>Participant Login and Join the Virtual Conference</td>
+                              </tr>
+                              <tr>
+                                 <td>09:00 AM - 09:25 AM</td>
+                                 <td>Welcome</td>
+                              </tr>
+                              <tr>
+                                 <td>09:25 AM- 09:30 AM</td>
+                                 <td>Conference Introduction</td>
+                              </tr>
+                              <tr>
+                                 <td>09:30 AM - 12:30 PM</td>
+                                 <td>Techninical Session 1</td>
+                              </tr>
+                              <tr>
+                                 <td>13:45 PM - 15:30 PM</td>
+                                 <td>Techninical Session 2</td>
+                              </tr>
+                              <tr>
+                                 <td>15:30 PM - 16:00 PM</td>
+                                 <td>Open Research Discussion</td>
+                              </tr>
+                              <tr>
+                                 <td>16:00 PM - 16:30 PM</td>
+                                 <td>Testimonial and Closing</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="committee">
+         <div class="container">
+         <div class="row">
+         <div class="col-lg-12">
+         <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+            <div class="card-header bg-primary mb-3">
+               <h4><b>Organizing Committee</b></h4>
+            </div>
+            <div class="card-body">
+               <h5><span style="color:#3e4ced"><b>Chair & Members</b></span></h5>
+               <div class="container">
+                  <div class="row ">
+                     <div class="col-md-6">
+                        <ul class="ml-4">
+                           <small>
+                              <li>Dr. Moo Sung Kim College of Business, Zayed University, Dubai UAE</li>
+                              <li>Dr. Mahboubeh Taghizadeh, Iran University of Science and Technology, Iran</li>
+                              <li>Prof.(Dr.)Wen-Lin Yang, Dean, National University of Tainan, Taiwan</li>
+                              <li>Dr. Pankaj Thakur, Assistant Professor, Arba Minch University, Arba Minch, Ethiopia</li>
+                              <li>Dr. Hoang Anh Tuan, Vice Dean, Ho Chi Minh city University of Transport, Vietnam</li>
+                              <li>Dr. Dodo Yakub Aminu, Senior lecturer, University Sains Islam Malaysia</li>
+                              <li>Dr. Sunny Joseph, HOD, Dept. of Mathematics, K. E. College, Kottayam, Kerala, India</li>
+                              <li>Dr. Dipti Patra, Associate Professor, National Institute of Technology, India</li>
+                              <li>Dr. Mohd Helmy Abd Wahab, Universiti Tun Hussein Onn Malaysia</li>
+                              <li>Dr. Poonam Vyas, J K Lakshmipat University, Jaipur, Rajasthan, India</li>
+                              <li>Dr. Ahmed A. Elngar, Assistant Professor, Beni-Suef University, Egypt</li>
+                              <li>Dr. Ahmad R. AlBattat, Management and Science University, Shah Alam,
+                                 Malaysia
+                              </li>
+                              <li>Dr. Arunachalam Kalirajan, Senior Lecturer,DMI St. Eugene University, Zambia</li>
+                              <li>Dr. Yagyanath Rimal, School of Engineering, Pokhara University, Nepal</li>
+                              <li>Dr. Choen Krainara, National Economic & Social Development Board, Bangkok,
+                                 Thailand
+                              </li>
+                              <li>Dr. Nihar Ranjan Mishra, Asst. Professor, Social Anthropology, NIT, India</li>
+                           </small>
+                        </ul>
+                     </div>
+                     <div class="col-md-6">
+                        <ul class="ml-4">
+                           <small>
+                              <li>Prof. Saber Mohamed Abd-Allah, Reproductive Biology & Genetics Society, Singapore
+                              </li>
+                              <li>Prof.(Dr.) Mwafaq M. Dandan, Aljouf University, Kingdom of Saudi Arabia</li>
+                              <li>Dr. Hussein Hussein Zidan, Assistant Professor, Directorate General of Diyala, Baqubah, Iraq
+                              </li>
+                              <li>Prof.(Dr.)Basim Alhadidi, Albalqa' Applied University, Jordan</li>
+                              <li>Prof.(Dr.)Ashraf M. A. Ahmad, Princess Sumya University for Technology, Amman</li>
+                              <li>Prof.(Dr.)Raymond Kosala, The Loseph Wibowo Center for Advanced Learning, Jakarta, Indonesia
+                              </li>
+                              <li>Dr. Vikash Kumar, Utkal University, Odisha, India</li>
+                              <li>Dr. Aliyu Ahmad Warra, Centre for Entrepreneurial Development, Federal University, Gusau,
+                                 Nigeria
+                              </li>
+                              <li>Dr. R Nandhini, Assistant Professor and Head, Anna University, Tamil Nadu, India</li>
+                              <li>Dr. Srishti Umekar, Assistant Professor, AISECT University Bhopal, India</li>
+                              <li>Dr. Md. Mamun Habib, School of Quantitative Sciences, Universiti Utara Malaysia, UUM</li>
+                              <li>Johnnie Jada Lim, San Sebastian College Recolletos De Cavite, Cavite City, Philippines</li>
+                              <li>Dr. Mumtaz Alam, Fiji National University, Republic of Fiji.</li>
+                           </small>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                     <div class="card-header bg-primary mb-3">
+                        <h4><b>Contact Information</b></h4>
+                     </div>
+                     <div class="card-body">
+                        <h5 class="text-justify"><span style="color:#3e4ced"><b>Contact Person</b></span></h5>
+                        <p><b>Conference Secretary</b></p>
+                        <p>RPPF Conference</p>
+                        <p>Email: forumrpp@gmail.com<br><br></a>
+                           Contact Form: <a href="https://forms.gle/71EMHoo2bbZmAqVH8" target="_blank"><u>Click Here</u></a>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/653b628aa84dd54dc485c1f7/1hdnvhs0d';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+      
+      
+   </body>
+   <!-- jQuery library -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <!-- Popper JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <!-- Latest compiled JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
